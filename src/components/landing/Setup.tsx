@@ -4,7 +4,6 @@ import React from 'react';
 
 import Container from '../common/Container';
 import SectionHeading from '../common/SectionHeading';
-import Code from '../svgs/Code';
 import Gear from '../svgs/Gear';
 import { Card } from '../ui/card';
 
@@ -15,12 +14,7 @@ const setup = [
     icon: <Gear className="size-4" />,
     href: '/gears',
   },
-  {
-    name: 'VS Code / Cursor Setup',
-    description: 'VS Code / Cursor Setup i use daily.',
-    icon: <Code className="size-4" />,
-    href: '/setup',
-  },
+  
 ];
 
 export default function Setup() {

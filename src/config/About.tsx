@@ -1,4 +1,3 @@
-import Bun from '@/components/technologies/Bun';
 import JavaScript from '@/components/technologies/JavaScript';
 import MongoDB from '@/components/technologies/MongoDB';
 import NextJs from '@/components/technologies/NextJs';
@@ -10,7 +9,7 @@ import TypeScript from '@/components/technologies/TypeScript';
 
 export const mySkills = [
   <ReactIcon key="react" />,
-  <Bun key="bun" />,
+  // <Bun key="bun" />,
   <JavaScript key="javascript" />,
   <TypeScript key="typescript" />,
   <MongoDB key="mongodb" />,
