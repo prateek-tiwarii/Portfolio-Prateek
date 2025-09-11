@@ -12,7 +12,7 @@ import { Badge } from '@/components/ui/badge';
 import Image from 'next/image';
 import React from 'react';
 
-import { CodeCopyButton } from '../blog/CodeCopyButton';
+// import { CodeCopyButton } from '../blog/CodeCopyButton';
 
 // Technology mapping for dynamic components
 const TechnologyComponents: Record<string, React.ComponentType> = {
@@ -300,7 +300,7 @@ export const ProjectComponents = {
         >
           {children}
         </pre>
-        <CodeCopyButton code={codeText} />
+        {/* <CodeCopyButton code={codeText} /> */}
       </div>
     );
   },

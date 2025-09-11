@@ -8,7 +8,7 @@ import Phone from '@/components/svgs/devices/Phone';
 
 export const devices = [
   {
-    name: 'MacBook Pro 16" M4 46GB 512GB',
+    name: 'Lenovo IdeaPad 3 14" 16gb 512GB',
     icon: <Laptop className="size-4" />,
   },
   {
@@ -16,7 +16,7 @@ export const devices = [
     icon: <Monitor className="size-4" />,
   },
   {
-    name: 'Cosmic Byte firefly Mechanical Keyboard',
+    name: 'Cosmic Byte  Keyboard',
     icon: <Keyboard className="size-4" />,
   },
   {
@@ -24,11 +24,11 @@ export const devices = [
     icon: <Mouse className="size-4" />,
   },
   {
-    name: 'Crossbeats Roar 2.0 (Special Addition)',
+    name: 'SkullCandy Heash 3 (Special Addition)',
     icon: <Headphones className="size-4" />,
   },
   {
-    name: 'Samsung S23 (256 GB)',
+    name: 'Samsung S20 fe (128 GB)',
     icon: <Phone className="size-4" />,
   },
 ];
@@ -50,11 +50,11 @@ export const webExtensions = [
 ];
 
 export const software = [
-  { name: 'Dia', href: 'https://www.diabrowser.com/' },
-  { name: 'Zen Browser', href: 'https://zen-browser.app/' },
+  { name: 'Brave', href: 'https://brave.com/' },
+  { name: 'Slack', href: 'https://slack.com/download' },
   { name: 'Discord', href: 'https://discord.com/download' },
   { name: 'Notion', href: 'https://www.notion.so/desktop' },
-  { name: 'TickTick', href: 'https://ticktick.com/download' },
+  { name: 'Copilot', href: 'https://github.com/features/copilot' },
   {
     name: 'Microsoft Power Toys',
     href: 'https://www.microsoft.com/en-us/p/powertoys/9nblggh4nqj3?activetab=pivot:overviewtab',
@@ -64,7 +64,7 @@ export const software = [
     name: 'Free Download Manager',
     href: 'https://www.freedownloadmanager.org/',
   },
-  { name: 'OBS Studio', href: 'https://obsproject.com/' },
+  
   {
     name: 'NVIDIA Broadcast',
     href: 'https://www.nvidia.com/en-us/geforce/geforce-experience/broadcast/',

@@ -47,7 +47,7 @@ export const experiences: Experience[] = [
     company: 'EquasOnline',
     position: 'Full Stack Developer Intern',
     location: 'Banglore (Remote)',
-    image: '/company/promote.png',
+    image: '/company/equas.png',
     description: [
   'Architected and developed the complete frontend and website infrastructure for Eqaus, including a dashboard and admin panel to manage proficiency testing for various medical tests.',
   'Implemented and managed the admin userbase, enabling seamless coordination, assignment, and tracking of tests across multiple users.',
@@ -113,7 +113,7 @@ export const experiences: Experience[] = [
     company: 'WebNexa',
     position: 'Freelance Web Developer',
     location: 'Remote',
-    image: '/company/upsurge.png',
+    image: '/company/webNexa.png',
     description: [
   'Designed and developed fully functional websites for clients, handling both frontend and backend implementation to meet specific business requirements.',
   'Implemented responsive and user-friendly interfaces, ensuring seamless user experience across devices.',
@@ -160,7 +160,7 @@ export const experiences: Experience[] = [
     company: 'Gdsc Abesit',
     position: ' Full stack lead',
     location: 'Ghaziabad ',
-    image: '/company/prepeasy.png',
+    image: '/company/gdsc.png',
     description: [
   'Served as Full Stack Lead at GDSC ABESIT, mentoring students and guiding project development across multiple initiatives.',
   'Organized and conducted technical workshops and hackathons, facilitating hands-on learning and fostering a collaborative community.',
@@ -192,16 +192,7 @@ export const experiences: Experience[] = [
         href: 'https://react.dev/',
         icon: <ReactIcon />,
       },
-      {
-        name: 'Prisma',
-        href: 'https://www.prisma.io/',
-        icon: <Prisma />,
-      },
-      {
-        name: 'PostgreSQL',
-        href: 'https://www.postgresql.org/',
-        icon: <PostgreSQL />,
-      },
+      
       {
         name: 'Vercel',
         href: 'https://vercel.com/',

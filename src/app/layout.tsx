@@ -6,7 +6,7 @@ import { Quote } from '@/components/common/Quote';
 import { generateMetadata as getMetadata } from '@/config/Meta';
 import ReactLenis from 'lenis/react';
 import { ViewTransitions } from 'next-view-transitions';
-import UmamiAnalytics from '@/components/analytics/UmamiAnalytics';
+// import UmamiAnalytics from '@/components/analytics/UmamiAnalytics';
 import Providers from '@/components/common/Providers';
 import './globals.css';
 
@@ -29,7 +29,7 @@ export default function RootLayout({
             <Quote />
             <Footer />
             <ChatBubble />
-            <UmamiAnalytics />
+            
           </ReactLenis>
           </Providers>
         </body>
