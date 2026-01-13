@@ -33,10 +33,57 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
+    isCurrent: true,
+    company: 'SynPacs',
+    position: 'Full Stack Developer',
+    location: 'Remote',
+    image: '/company/webNexa.png',
+    description: [
+  'Designed and developed end-to-end web applications for SynPACS, handling both frontend and backend implementation to support healthcare workflows and AI-driven features',
+  'Built responsive and intuitive user interfaces for medical dashboards and reporting systems, ensuring a seamless experience across devices',
+  'Integrated backend APIs, databases, and third-party services to provide dynamic content and functionality.',
+  'Managed deployment, testing, and ongoing maintenance, while maintaining clear technical documentation for client handover.',
+],
+
+    startDate: 'Sep 2025',
+    endDate: 'current',
+    technologies: [
+      {
+        name: 'Next.js',
+        href: 'https://nextjs.org/',
+        icon: <NextJs />,
+      },
+      {
+        name: 'Docker',
+        href: 'https://www.docker.com/',
+        icon: <Docker />,
+      },
+      {
+        name: 'Postman',
+        href: 'https://www.postman.com/',
+        icon: <Postman />,
+      },
+      {
+        name: 'TypeScript',
+        href: 'https://www.typescriptlang.org/',
+        icon: <TypeScript />,
+      },
+      {
+        name: 'Express',
+        href: 'https://expressjs.com/',
+        icon: <ExpressJs />,
+      },
+    ],
+    website: '',
+    github: 'https://github.com/prateek-tiwarii/WEBNEXA',
+    x: '',
+    linkedin: '',
+  },
+  {
     isCurrent: false,
     company: 'EquasOnline',
     position: 'Full Stack Developer Intern',
-    location: 'Banglore (Remote)',
+    location: 'Bangalore (Remote)',
     image: '/company/equas.png',
     description: [
   'Architected and developed the complete frontend and website infrastructure for Eqaus, including a dashboard and admin panel to manage proficiency testing for various medical tests.',
@@ -45,8 +92,8 @@ export const experiences: Experience[] = [
   'Enhanced user experience by designing intuitive interfaces, consistent design systems, and responsive layouts for both dashboards and website.',
 ],
 
-    startDate: 'Jan 2025',
-    endDate: 'April 2025',
+    startDate: 'Oct 2024',
+    endDate: 'Aug 2025',
     technologies: [
       {
         name: 'Next.js',
@@ -98,53 +145,7 @@ export const experiences: Experience[] = [
     github: '',
     x: 'https://x.com/promotefun_',
   },
-  {
-    isCurrent: false,
-    company: 'WebNexa',
-    position: 'Freelance Web Developer',
-    location: 'Remote',
-    image: '/company/webNexa.png',
-    description: [
-  'Designed and developed fully functional websites for clients, handling both frontend and backend implementation to meet specific business requirements.',
-  'Implemented responsive and user-friendly interfaces, ensuring seamless user experience across devices.',
-  'Integrated backend APIs, databases, and third-party services to provide dynamic content and functionality.',
-  'Managed deployment, testing, and ongoing maintenance, while maintaining clear technical documentation for client handover.',
-],
-
-    startDate: 'June 2025',
-    endDate: 'July 2025',
-    technologies: [
-      {
-        name: 'Next.js',
-        href: 'https://nextjs.org/',
-        icon: <NextJs />,
-      },
-      {
-        name: 'Docker',
-        href: 'https://www.docker.com/',
-        icon: <Docker />,
-      },
-      {
-        name: 'Postman',
-        href: 'https://www.postman.com/',
-        icon: <Postman />,
-      },
-      {
-        name: 'TypeScript',
-        href: 'https://www.typescriptlang.org/',
-        icon: <TypeScript />,
-      },
-      {
-        name: 'Express',
-        href: 'https://expressjs.com/',
-        icon: <ExpressJs />,
-      },
-    ],
-    website: '',
-    github: 'https://github.com/prateek-tiwarii/WEBNEXA',
-    x: '',
-    linkedin: '',
-  },
+  
   {
     isCurrent: false,
     company: 'Gdsc Abesit',
